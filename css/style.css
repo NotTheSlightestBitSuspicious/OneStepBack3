@@ -1,0 +1,189 @@
+/*body {
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+} */
+
+html {
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 12px 22px;
+  border: 2px solid;
+  font-size: 25px;
+}
+
+
+.btn-secondary:hover {
+  background-color: #F1EFF1;
+}
+
+.btn-secondary {
+  border-color: #F8F9FA;
+}
+
+.btn:hover {
+  border-color: #F8F9FA;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 1% 0;
+}
+
+.jumbotron {
+  background-color: #F1EFF1;
+}
+
+.navbar .navbar-collapse span {
+  color: black;
+  margin-right: 10px;
+}
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: #F1EFF1;
+}
+
+.align-self-end{
+  font-align: right;
+}
+
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+  text-decoration: none;
+}
+
+.fa-youtube, .fa-twitter ,.fa-facebook ,.fa-instagram ,.fa-google-plus-g{
+  color:#F1EFF1;
+}
+
+.fa-youtube:hover
+, .fa-twitter:hover
+,.fa-facebook:hover
+,.fa-instagram:hover
+,.fa-google-plus-g:hover{
+  color:#d5d5d5;
+}
+
+.navbar-brand {
+  padding-left: 0.5em;
+}
+
+.carousel-caption {
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.remove-button{
+	color: #d5d5d5;
+	float: right;
+	cursor: pointer;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    display: none;
+  }
+  .nav-item{
+    padding-left: 1.2em;
+  }
+  .navbar .navbar-collapse span{
+    padding-left: 1.2em;
+  }
+  .navbar-toggler{
+    padding-left: 1em;
+    border: 0;
+  }
+  .display-4{
+    font-size: 200%;
+  }
+
+  footer {
+    text-align: center;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 6px 15px;
+  }
+  .social a{
+    font-size: 2.5em;
+    padding: 1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav{
+    font-size: 1.025rem;
+  }
+  .social a{
+    font-size: 3em;
+    padding: 1rem;
+  }
+  .display-4{
+    font-size: 225%;
+  }
+  .btn {
+    font-size: 18px;
+    padding: 7px 16px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav{
+    font-size: 1.05rem;
+  }
+  .social a{
+    font-size: 4.0em;
+    padding: 2rem;
+  }
+  .display-4{
+    font-size: 250%;
+  }
+  .btn {
+    font-size: 19px;
+    padding: 9px 17px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  nav{
+    font-size: 1.1rem;
+  }
+  footer {
+    font-size: 1rem:
+  }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  nav, .welcome{
+    font-size: 1.2rem;
+  }
+  footer {
+    font-size: 1rem:
+  }
+}
